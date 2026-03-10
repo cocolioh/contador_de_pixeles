@@ -3,7 +3,12 @@ from openpyxl import Workbook
 import openpyxl, os
 from openpyxl.styles import PatternFill
 
-path = r"C:\Users\raque\Desktop\ccc.png"
+path = r"PATH HERE"
+
+if path == "PATH HERE":
+    print("Por favor escribir la ruta de la imagen directo en el archivo .py")
+    print("Please write the image path directly onto the .py file")
+    return()
 
 
 # http://www.psychocodes.in/rgb-to-hex-conversion-and-hex-to-rgb-conversion-in-python.html
@@ -122,5 +127,6 @@ print("Todos los colores obtenidos exitosamente.")
         
         
         
+
 
 
