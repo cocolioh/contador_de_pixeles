@@ -107,6 +107,15 @@ for color in colores:
     
     cell = ws.cell(indice+2, 2, cantidades[indice])
 
+ws['D1'] = 'Ancho img'
+ws['E1'] = 'Alto img'
+ws['C2'] = 'Pixeles'
+ws['C3'] = 'cm'
+ws['D2'] = ancho
+ws['E2'] = alto
+ws['D3'] = ancho*0.26
+ws['E3'] = alto*0.26
+
 separador = "\\"
 
 path_separado = path.split(separador)
@@ -127,7 +136,5 @@ print("Todos los colores obtenidos exitosamente.")
         
         
         
-
-
 
 
